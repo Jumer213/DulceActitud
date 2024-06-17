@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, cursive;
+}
+
+.contenedor{
+    display: flex;
+    background: gainsboro;
+    height: 70px;
+    align-items: center;
+    
+}
+
+.contenedor__link{
+    margin: auto;
+    padding: 10px;
+    place-items: center;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+.dulceimg{
+    height: 950px;
+}
+
+.section1{
+    background-color: aliceblue;
+}
+
+.titu1{
+    position: sticky;
+    top: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    background: rgb(205, 188, 219);
+}
+
+.section2{
+    font-size: 30px;
+    margin-top: 5px;
+    padding: 20px;
+    background: rgb(224, 193, 198);
+}
+
+.section3{
+    font-size: 30px;
+    margin-top: 5px;
+    padding: 20px;
+    background: rgb(197, 196, 255);
+}
+
+.section4{
+    font-size: 30px;
+    margin-top: 5px;
+    padding: 20px;
+    background: plum;
+}
+
+.section5{
+    font-size: 30px;
+    margin-top: 5px;
+    padding: 20px;
+    background: rgb(192, 250, 252);
+}
+
+.section6{
+    font-size: 30px;
+    margin-top: 5px;
+    padding: 20px;
+    background: rgb(186, 255, 203);
+}
+
+.section7{
+    font-size: 30px;
+    margin-top: 5px;
+    padding: 20px;
+    background: rgb(197, 196, 255);
+}
+
+.glucemia1{
+    width: 100%;
+}
+
+.glucemia2{
+    width: 100%;
+}
+
+.glucemia3{
+    width: 100%;
+}
+
+.optimizejer{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    top:0px;
+    background:rgb(219, 219, 219) ;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+.indigluc{
+    background:rgb(192, 250, 252);
+}
+
+.indiceglu{
+    margin-top: 10px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 10px;
+    background: rgb(192, 250,252);
+}
+
+.rojo{
+    background: red;
+}
+
+.amarillo{
+    background: yellow;
+}
+
+.verde{
+    background: green;
+}
+
+.azul{
+    background: rgb(47, 47, 247);
+}
+
+.boton{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.boton__boton{
+    width: 60%;
+    border-radius: 10px;
+    background-color: rosybrown;
+    box-shadow: 0px 0px 10px 0 blue ;
+    font-size: 25px;
+    
+}
+
+.indigluimg{
+    width: 60%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+.article1{
+    margin-top: 300px;
+}
+
+.diario{
+    background-color: rgb(216, 209, 197);
+    background-image: url(diario/diario\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.div1{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.h5{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.textarea{
+    width: 50%;
+    padding: 7px;
+    font-size: 25px;
+}
+
+.div2{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.div3{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.div4{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.div5{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.div6{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+/*-----------------------------------------------------------------------------------------*/
+
+@media (max-width: 800px){
+    *{
+     width: auto;
+    }
+}
+
+
+
+
